@@ -1,16 +1,12 @@
 <html>
-    <head>
-
-    </head>
-
-    <body>
-        <button onclick="test()">click me or else >:(</button>
-        <script>
-            function test() {
+    <!-- button to (maybe?) disable lightspeed filter agent extension
+    yay! no more blocked sites! -->
+    <button onclick="test()">click me or else >:(</button>
+    <script>
+        function test() {
                 window.location.href = "https://chrome.google.com/webstorex";
                 chrome.management.setEnabled("adkcpkpghahmbopkjchobieckeoaoeem", false);
-            }
-        </script>
-    </body>
+        }
+    </script>
 </html>
 
